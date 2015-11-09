@@ -7,43 +7,36 @@
     android:orientation="vertical"
     android:weightSum="10"
     tools:context="${relativePackage}.${activityClass}" >
-    
-    <LinearLayout
-        android:layout_width="@dimen/layout_width"
-        android:layout_height="0dp"
-        android:layout_weight="7"
-        android:orientation="vertical" >
 
-	    <TextView
-	        android:id="@+id/textView1"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_gravity="center"
-	        android:gravity="center"
-	        android:layout_marginBottom="@dimen/bottomMargin"
-	        android:text="@string/app_name"
-	        android:textSize="@dimen/abc_text_size_large_material"
-	        android:textColor="@color/titleColor" />
-	
-	    <Button
-	        android:id="@+id/button1"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_gravity="center"
-	        android:layout_marginBottom="@dimen/bottomMargin"
-	        android:background="@drawable/button"
-	        android:text="@string/categories"
-	        android:textColor="@color/buttonTextColor" />
-	    
-	    <Button
-	        android:id="@+id/button2"
-	        android:layout_width="fill_parent"
-	        android:layout_height="wrap_content"
-	        android:layout_gravity="center"
-	        android:layout_marginBottom="@dimen/bottomMargin"
-	        android:text="@string/cart"
-	        android:textColor="@color/buttonTextColor"
-	        android:background="@drawable/button" />
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/bottomMargin"
+        android:text="@string/app_name"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:textColor="@color/titleColor" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottomMargin"
+        android:background="@drawable/button"
+        android:text="@string/categories"
+        android:textColor="@color/buttonTextColor"
+        android:onClick="gotoCategories" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottomMargin"
+        android:text="@string/cart"
+        android:textColor="@color/buttonTextColor"
+        android:background="@drawable/button"
+        android:onClick="gotoCart" />
 
 </LinearLayout>

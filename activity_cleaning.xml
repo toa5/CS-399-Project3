@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" >
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
         android:background="@drawable/button"
+        android:textColor="@color/buttonTextColor"
+        android:gravity="center"
         android:text="@string/cart"
-        android:textColor="@color/buttonTextColor" />
-
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="gotoCart" />
+    
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,70 +23,41 @@
         android:layout_centerInParent="true"
         android:layout_gravity="center"
         android:gravity="center"
-        android:orientation="vertical"
-        android:weightSum="10" >
-
+        android:orientation="vertical" >
+        
         <TextView
             android:id="@+id/textView1"
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/categories"
+            android:text="@string/clean"
             android:textColor="@color/titleColor"
             android:textSize="@dimen/abc_text_size_large_material" />
-
+        
         <Button
             android:id="@+id/button1"
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/food"
-            android:onClick="gotoFood"
+            android:text="@string/laundry"
             android:textColor="@color/buttonTextColor" />
-
+        
         <Button
             android:id="@+id/button2"
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/elec"
-            android:onClick="gotoElec"
+            android:text="@string/kitchen"
             android:textColor="@color/buttonTextColor" />
-
+        
         <Button
             android:id="@+id/button3"
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/tool"
+            android:text="@string/bathroom"
             android:textColor="@color/buttonTextColor" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="@dimen/layout_width"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:text="@string/paper"
-            android:textColor="@color/buttonTextColor" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="@dimen/layout_width"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:text="@string/clean"
-            android:onClick="gotoCleaning"
-            android:textColor="@color/buttonTextColor" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="@dimen/layout_width"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:text="@string/service"
-            android:onClick="gotoServices"
-            android:textColor="@color/buttonTextColor" />
-
+        
     </LinearLayout>
 
 </RelativeLayout>

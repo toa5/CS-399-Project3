@@ -7,12 +7,14 @@
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
         android:background="@drawable/button"
+        android:textColor="@color/buttonTextColor"
+        android:gravity="center"
         android:text="@string/cart"
-        android:textColor="@color/buttonTextColor" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="gotoCart" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -21,15 +23,14 @@
         android:layout_centerInParent="true"
         android:layout_gravity="center"
         android:gravity="center"
-        android:orientation="vertical"
-        android:weightSum="10" >
+        android:orientation="vertical" >
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/categories"
+            android:text="@string/food"
             android:textColor="@color/titleColor"
             android:textSize="@dimen/abc_text_size_large_material" />
 
@@ -38,8 +39,7 @@
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/food"
-            android:onClick="gotoFood"
+            android:text="@string/cereal"
             android:textColor="@color/buttonTextColor" />
 
         <Button
@@ -47,8 +47,7 @@
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/elec"
-            android:onClick="gotoElec"
+            android:text="@string/milk"
             android:textColor="@color/buttonTextColor" />
 
         <Button
@@ -56,7 +55,7 @@
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/tool"
+            android:text="@string/meat"
             android:textColor="@color/buttonTextColor" />
 
         <Button
@@ -64,7 +63,7 @@
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/paper"
+            android:text="@string/bread"
             android:textColor="@color/buttonTextColor" />
 
         <Button
@@ -72,8 +71,7 @@
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/clean"
-            android:onClick="gotoCleaning"
+            android:text="@string/vegetables"
             android:textColor="@color/buttonTextColor" />
 
         <Button
@@ -81,8 +79,7 @@
             android:layout_width="@dimen/layout_width"
             android:layout_height="wrap_content"
             android:background="@drawable/button"
-            android:text="@string/service"
-            android:onClick="gotoServices"
+            android:text="@string/other"
             android:textColor="@color/buttonTextColor" />
 
     </LinearLayout>

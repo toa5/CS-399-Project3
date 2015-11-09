@@ -18,10 +18,15 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CategoryActivity" android:label="@string/categories" />
+        <activity android:label="@string/cart" android:name=".CartActivity" />
+        <activity android:label="@string/clean" android:name=".CleaningActivity" />
+        <activity android:label="@string/service" android:name=".ServicesActivity" />
+        <activity android:label="@string/elec" android:name=".ElectronicsActivity" />
+        <activity android:label="@string/food" android:name=".FoodActivity" />
     </application>
 
 </manifest>
