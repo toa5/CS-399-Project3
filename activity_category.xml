@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:weightSum="10"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/categories"
+	        android:textColor="@color/titleColor"
+	        android:textSize="@dimen/abc_text_size_large_material" />
+	
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/food"
+	        android:textColor="@color/buttonTextColor"
+	        android:background="@drawable/button" />
+	    
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/elec"
+	        android:textColor="@color/buttonTextColor"
+	        android:background="@drawable/button" />
+	    
+	    <Button
+	        android:id="@+id/button3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tool"
+	        android:textColor="@color/buttonTextColor"
+	        android:background="@drawable/button" />
+	
+	    <Button
+	        android:id="@+id/button4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/paper"
+	        android:textColor="@color/buttonTextColor"
+	        android:background="@drawable/button" />
+	    
+	    <Button
+	        android:id="@+id/button5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/clean"
+	        android:textColor="@color/buttonTextColor"
+	        android:background="@drawable/button" />
+	    
+	    <Button
+	        android:id="@+id/button6"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/service"
+	        android:textColor="@color/buttonTextColor"
+	        android:background="@drawable/button" />
+    </LinearLayout>
+</LinearLayout>

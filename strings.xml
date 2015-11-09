@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">iBuy</string>
+    <string name="categories">Categories</string>
+    <string name="cart">My Cart</string>
+    <string name="checkout">Checkout Items</string>
+    <string name="food">Food</string>
+    <string name="elec">Electronics</string>
+    <string name="tool">Tools</string>
+    <string name="paper">Paper</string>
+    <string name="clean">Cleaning</string>
+    <string name="service">Services</string>
+    <string name="cereal">Cereal</string>
+    <string name="milk">Milk</string>
+	<string name="meat">Meat</string>
+	<string name="bread">Bread</string>
+	<string name="other">Other</string>
+	<string name="vegetables">Vegetables</string>
+	<string name="add">Add to Cart</string>
+	<string name="kitchen">Kitchen</string>
+	<string name="bathroom">Bathroom</string>
+	<string name="laundry">Laundry</string>
+	<string name="plumber">Plumber</string>
+	<string name="electrician">Electrician</string>
+	<string name="bricklayer">Bricklayer</string>
+	<color name="buttonTextColor">#FFFFFF</color>
+	<dimen name="bottomMargin">16dp</dimen>
+	<color name="titleColor">#000000</color>
+	<dimen name="layout_width">180dp</dimen>
+	
+</resources>
