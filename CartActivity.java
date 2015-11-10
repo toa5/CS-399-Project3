@@ -12,7 +12,7 @@ public class CartActivity extends IBuyActivity
 	{	super(R.layout.activity_cart);}
 	
 	@Override
-	public void onCreate(Bundle bundle)
+	protected void onCreate(Bundle bundle)
 	{
 		super.onCreate(bundle);
 		LinearLayout layout = (LinearLayout) this.findViewById(R.id.cartLayout);

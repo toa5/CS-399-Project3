@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button"
-        android:textColor="@color/buttonTextColor"
+        android:textColor="@drawable/button"
         android:gravity="center"
         android:text="@string/cart"
         android:layout_alignParentRight="true"
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button"
             android:text="@string/plumber"
-            android:textColor="@color/buttonTextColor" />
+            android:textColor="@drawable/button" />
         
         <Button
             android:id="@+id/button2"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button"
             android:text="@string/electrician"
-            android:textColor="@color/buttonTextColor" />
+            android:textColor="@drawable/button" />
         
         <Button
             android:id="@+id/button3"
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button"
             android:text="@string/bricklayer"
-            android:textColor="@color/buttonTextColor" />
+            android:textColor="@drawable/button" />
         
     </LinearLayout>
 </RelativeLayout>
